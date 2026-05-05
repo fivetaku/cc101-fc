@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cc101-fc.axwith.com'),
   title: 'CC101 with FC — 패스트캠퍼스 클로드코드 뽀개기',
   description:
     '패스트캠퍼스 "클로드코드 뽀개기" 강의 수강생을 위한 한국어 학습 가이드. Part 1~3 17 클립 + 보조 레퍼런스. 영상 보면서 옆에 켜두고 따라하세요.',
@@ -26,21 +27,11 @@ export const metadata: Metadata = {
     siteName: 'CC101 with FC',
     locale: 'ko_KR',
     type: 'website',
-    images: [
-      {
-        url: 'https://cc101-fc.axwith.com/og.png',
-        width: 1200,
-        height: 630,
-        alt: 'CC101 with FC — 패스트캠퍼스 클로드코드 뽀개기',
-        type: 'image/png',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'CC101 with FC — 패스트캠퍼스 클로드코드 뽀개기',
     description: '패스트캠퍼스 클로드코드 뽀개기 강의 학습 가이드',
-    images: ['https://cc101-fc.axwith.com/og.png'],
   },
 }
 
@@ -60,7 +51,7 @@ export default function RootLayout({
         <Script id="ga4-init" strategy="afterInteractive">
           {`
             if (location.hostname === 'cc101-fc.axwith.com') {
-              var GA4_ID = 'G-XXXXXXX'; // TODO: Step J에서 신규 GA4 property 발급 후 교체
+              var GA4_ID = 'G-Q12V9W97QX';
               var s = document.createElement('script');
               s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
               s.async = true;
