@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Class-based dark mode (html.dark) */
+@variant dark (&:where(.dark, .dark *));
+
+/* 패스트캠퍼스 브랜드 색상 (TBD: 정확 hex 받으면 --color-brand-500 한 줄만 변경) */
+@theme {
+  --color-brand-50:  #fff1f2;
+  --color-brand-100: #ffe1e6;
+  --color-brand-300: #ff7a96;
+  --color-brand-400: #ff3a66;
+  --color-brand-500: #ff003c;
+  --color-brand-600: #e60036;
+  --color-brand-700: #b3002b;
+}
+
+/* Smooth scroll + prevent horizontal overflow */
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+/* Light mode defaults */
+body {
+  background-color: #ffffff;
+  color: #18181b;
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
+/* Dark mode body */
+html.dark body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+/* Sidebar scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 3px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #27272a;
+}
+
+/* Code block — contain within viewport, scroll horizontally inside */
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* Code block horizontal scrollbar */
+pre::-webkit-scrollbar {
+  height: 5px;
+}
+pre::-webkit-scrollbar-thumb {
+  background: #a1a1aa;
+}
+html.dark pre::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+}
+
+/* Table — horizontal scroll on mobile */
+.prose .table-wrapper,
+.prose table {
+  max-width: 100%;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+.prose th,
+.prose td {
+  border: 1px solid #e4e4e7;
+  padding: 0.5rem 0.75rem;
+}
+.prose th {
+  background-color: #f4f4f5;
+}
+html.dark .prose th,
+html.dark .prose td {
+  border-color: #27272a;
+}
+html.dark .prose th {
+  background-color: #18181b;
+}

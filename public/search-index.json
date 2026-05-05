@@ -1,0 +1,323 @@
+[
+  {
+    "id": "part-1-01-orientation",
+    "tier": "part-1",
+    "tier_label": "Part 1. 인트로",
+    "title": "오리엔테이션",
+    "subtitle": "강사·강의 소개 + 요금제 안내",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-1-01-orientation"
+  },
+  {
+    "id": "part-1-02-how-to-learn",
+    "tier": "part-1",
+    "tier_label": "Part 1. 인트로",
+    "title": "강의 활용법",
+    "subtitle": "결과물 쇼케이스 + 로드맵 + 커뮤니티",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-1-02-how-to-learn"
+  },
+  {
+    "id": "part-1-03-cc101-plugins",
+    "tier": "part-1",
+    "tier_label": "Part 1. 인트로",
+    "title": "cc101 & GPTaku 플러그인",
+    "subtitle": "플러그인 생태계 소개 + 해커톤 사례",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-1-03-cc101-plugins"
+  },
+  {
+    "id": "part-2-01-mac-install",
+    "tier": "part-2",
+    "tier_label": "Part 2. 시작하기",
+    "title": "Mac 환경 설치",
+    "subtitle": "안티그래비티 + agent로 CC 세팅",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-2-01-mac-install"
+  },
+  {
+    "id": "part-2-02-windows-install",
+    "tier": "part-2",
+    "tier_label": "Part 2. 시작하기",
+    "title": "Windows 환경 설치",
+    "subtitle": "WSL + 안티그래비티 + agent",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-2-02-windows-install"
+  },
+  {
+    "id": "part-2-03-first-run",
+    "tier": "part-2",
+    "tier_label": "Part 2. 시작하기",
+    "title": "첫 실행",
+    "subtitle": "화면 / 슬래시 / 모델 / powerup + 폴더 정리",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-2-03-first-run"
+  },
+  {
+    "id": "part-2-04-modes-alias",
+    "tier": "part-2",
+    "tier_label": "Part 2. 시작하기",
+    "title": "모드 + Alias",
+    "subtitle": "4가지 모드 + cc Alias 세팅",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-2-04-modes-alias"
+  },
+  {
+    "id": "part-3-01-conversation-5steps",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "대화 패턴 5단계",
+    "subtitle": "모든 클립을 관통하는 흐름 (이론)",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-01-conversation-5steps"
+  },
+  {
+    "id": "part-3-02-data-analysis",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "데이터 분석",
+    "subtitle": "CSV로 인사이트 + 차트",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-02-data-analysis"
+  },
+  {
+    "id": "part-3-03-report",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "보고서 작성",
+    "subtitle": "분석 결과를 임원 보고서로",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-03-report"
+  },
+  {
+    "id": "part-3-04-dashboard",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "대시보드 만들기",
+    "subtitle": "인터랙티브 HTML 대시보드",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-04-dashboard"
+  },
+  {
+    "id": "part-3-05-research",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "자료 리서치",
+    "subtitle": "주제 하나로 자료 수집",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-05-research"
+  },
+  {
+    "id": "part-3-06-cardnews",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "카드뉴스 만들기",
+    "subtitle": "리서치 결과를 카드뉴스로",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-06-cardnews"
+  },
+  {
+    "id": "part-3-07-video",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "리모션 영상",
+    "subtitle": "카드뉴스를 영상으로 변환",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-07-video"
+  },
+  {
+    "id": "part-3-08-portfolio-plan",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "포트폴리오 기획",
+    "subtitle": "인터뷰 → PRD → 프로토타이핑",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-08-portfolio-plan"
+  },
+  {
+    "id": "part-3-09-portfolio-fix",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "포트폴리오 수정",
+    "subtitle": "대화로 디자인 다듬기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-09-portfolio-fix"
+  },
+  {
+    "id": "part-3-10-vercel-deploy",
+    "tier": "part-3",
+    "tier_label": "Part 3. 체험하기",
+    "title": "Vercel 배포",
+    "subtitle": "내 웹사이트 인터넷에 올리기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-3-10-vercel-deploy"
+  },
+  {
+    "id": "ref-conversation-5steps",
+    "tier": "reference",
+    "tier_label": "학습 레퍼런스",
+    "title": "대화 5단계 한눈에",
+    "subtitle": "모든 클립을 관통하는 흐름",
+    "headings": [
+      "흐름도",
+      "같은 대화, 다른 결과물",
+      "관련 클립"
+    ],
+    "url": "/#ref-conversation-5steps"
+  },
+  {
+    "id": "ref-slash-commands",
+    "tier": "reference",
+    "tier_label": "학습 레퍼런스",
+    "title": "슬래시 커맨드 모음",
+    "subtitle": "자주 쓰는 명령 한 표",
+    "headings": [
+      "첫날 추천 순서",
+      "관련 클립"
+    ],
+    "url": "/#ref-slash-commands"
+  },
+  {
+    "id": "ref-permission-modes",
+    "tier": "reference",
+    "tier_label": "학습 레퍼런스",
+    "title": "권한 모드 비교",
+    "subtitle": "Default / Accept-edits / Plan / Auto / Bypass",
+    "headings": [
+      "전환 방법",
+      "Alias 짧게 보기",
+      "관련 클립"
+    ],
+    "url": "/#ref-permission-modes"
+  },
+  {
+    "id": "ref-troubleshooting",
+    "tier": "reference",
+    "tier_label": "학습 레퍼런스",
+    "title": "트러블슈팅",
+    "subtitle": "자주 막히는 포인트 모음",
+    "headings": [
+      "관련 클립"
+    ],
+    "url": "/#ref-troubleshooting"
+  }
+]
