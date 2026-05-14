@@ -294,7 +294,7 @@ kkirikkiri가 워크플로우를 시작합니다. 중간에 인터뷰 옵션이 
 
 ## 다음 클립
 
-→ [Part 4 / Clip 4: vibe-sunsang — 내 AI 활용 점검받기](#part-4-04-vibe-sunsang)
+→ [Part 4 / Clip 4: 바선생(vibe-sunsang) — 내 AI 활용 점검받기](#part-4-04-vibe-sunsang)
 
 다음은 Part 4 마지막 클립입니다. 지금까지 클로드코드를 어떻게 써왔는지 외부 시선으로 점검받습니다. 오늘 고른 1~2순위와 다음 클립에서 나올 보완 영역까지 합치면, Part 5를 시작할 때 무엇을 먼저 해야 할지 더 분명해집니다.
 
