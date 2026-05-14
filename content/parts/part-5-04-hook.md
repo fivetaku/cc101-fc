@@ -309,6 +309,18 @@ sys.exit(0)
 
 규칙이 늘어나도 settings.json은 그대로고, Python 파일만 손보면 됩니다. **휴지통 보호 hook** 같은 변형도 같은 패턴이에요. `rm`을 매칭하고 `trash` 명령으로 우회하라는 메시지를 출력하면 됩니다.
 
+또 다른 변형으로 **TTS 응답 요약**이 있어요. Mac의 `say -v Yuna` 명령으로 마지막 응답을 한국어 음성으로 읽어주는 방식. Stop hook에 stdin으로 들어오는 JSON에서 `transcript_path`를 받아 마지막 assistant 메시지를 추출해 음성으로 변환하는 짧은 셸 스크립트 하나면 됩니다.
+
+```bash
+# ~/.claude/hooks/stop-speak.sh
+#!/bin/bash
+TRANSCRIPT=$(jq -r '.transcript_path' <<< "$(cat)")
+LAST_MSG=$(jq -r 'select(.type=="assistant") | .message.content[0].text' "$TRANSCRIPT" | tail -1 | head -c 80)
+say -v Yuna "$LAST_MSG"
+```
+
+전체 응답을 다 읽지 않고 앞 80자만 발췌하는 게 가볍고 충분해요. 진짜 "요약"하려면 또 다른 AI 호출이 필요해서 무거워집니다.
+
 ---
 
 ## 📦 결과물
