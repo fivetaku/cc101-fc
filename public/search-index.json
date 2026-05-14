@@ -248,6 +248,7 @@
     "headings": [
       "이 클립에서 만드는 것",
       "핵심 개념",
+      "시작 전 — 자료 셋업",
       "진행 흐름",
       "결과물",
       "자주 막히는 포인트",
@@ -270,6 +271,155 @@
       "다음 클립"
     ],
     "url": "/#part-3-10-vercel-deploy"
+  },
+  {
+    "id": "part-4-01-plugin-install",
+    "tier": "part-4",
+    "tier_label": "Part 4. 강화하기",
+    "title": "플러그인 설치하기",
+    "subtitle": "GPTaku 마켓플레이스 + 플러그인 3개",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-4-01-plugin-install"
+  },
+  {
+    "id": "part-4-02-docs-guide",
+    "tier": "part-4",
+    "tier_label": "Part 4. 강화하기",
+    "title": "docs-guide",
+    "subtitle": "공식 문서 기반으로 정확한 답변 받기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-4-02-docs-guide"
+  },
+  {
+    "id": "part-4-03-kkirikkiri",
+    "tier": "part-4",
+    "tier_label": "Part 4. 강화하기",
+    "title": "kkirikkiri",
+    "subtitle": "자연어로 AI 에이전트 팀 구성",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-4-03-kkirikkiri"
+  },
+  {
+    "id": "part-4-04-vibe-sunsang",
+    "tier": "part-4",
+    "tier_label": "Part 4. 강화하기",
+    "title": "vibe-sunsang",
+    "subtitle": "내 AI 활용 점검받기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-4-04-vibe-sunsang"
+  },
+  {
+    "id": "part-5-01-claude-md",
+    "tier": "part-5",
+    "tier_label": "Part 5. 뜯어보기",
+    "title": "CLAUDE.md",
+    "subtitle": "AI에게 업무 매뉴얼 쓰기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-5-01-claude-md"
+  },
+  {
+    "id": "part-5-02-command-subagent",
+    "tier": "part-5",
+    "tier_label": "Part 5. 뜯어보기",
+    "title": "커맨드 & 서브에이전트",
+    "subtitle": "스킬의 재료들 알아보기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "이번 주 진도",
+      "이번 주 진도",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-5-02-command-subagent"
+  },
+  {
+    "id": "part-5-03-mcp-cli",
+    "tier": "part-5",
+    "tier_label": "Part 5. 뜯어보기",
+    "title": "MCP & CLI",
+    "subtitle": "외부 도구 연결하기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "09:30 - 10:30  팀 주간 회의",
+      "14:00 - 15:00  강의 촬영",
+      "18:00  저녁 약속",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-5-03-mcp-cli"
+  },
+  {
+    "id": "part-5-04-hook",
+    "tier": "part-5",
+    "tier_label": "Part 5. 뜯어보기",
+    "title": "Hook",
+    "subtitle": "자동화의 방아쇠 설정하기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 클립"
+    ],
+    "url": "/#part-5-04-hook"
+  },
+  {
+    "id": "part-5-05-github",
+    "tier": "part-5",
+    "tier_label": "Part 5. 뜯어보기",
+    "title": "GitHub",
+    "subtitle": "git-teacher로 백업하기",
+    "headings": [
+      "이 클립에서 만드는 것",
+      "핵심 개념",
+      "진행 흐름",
+      "결과물",
+      "자주 막히는 포인트",
+      "다음 Part"
+    ],
+    "url": "/#part-5-05-github"
   },
   {
     "id": "ref-conversation-5steps",
