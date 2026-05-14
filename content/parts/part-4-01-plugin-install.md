@@ -251,10 +251,3 @@ https://github.com/fivetaku/gptaku_plugins.git
 다음은 Part 4 / Clip 2, docs-guide입니다. 방금 설치한 첫 번째 플러그인을 직접 써봅니다.
 
 다음 클립에서는 일반 질문으로 받은 답과 docs-guide로 받은 답을 비교합니다. 같은 질문인데 답이 어떻게 달라지는지, 왜 공식 문서를 보고 답하게 만드는 게 중요한지 바로 확인할 수 있습니다.
-
----
-tone: null
-tone_source: profile_only
-tone_evidence: []
-tone_confidence: null
----
