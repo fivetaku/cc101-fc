@@ -3,9 +3,9 @@
     "name": "CC101 with FC",
     "url": "cc101-fc.axwith.com",
     "description": "패스트캠퍼스 클로드코드 뽀개기 강의 학습 가이드",
-    "course_version": "v6.0",
+    "course_version": "v8.0",
     "version": "0.1.0-scaffold",
-    "lastUpdated": "2026-05-28"
+    "lastUpdated": "2026-06-18"
   },
   "sections": [
     {
@@ -607,6 +607,141 @@
       "badge": null,
       "file": "reference/troubleshooting.md",
       "type": "reference"
+    },
+    {
+      "id": "part-7-01-workspace-design",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 1,
+      "order": 37,
+      "slug": "workspace-design",
+      "title": "하네스 엔지니어링 — 워크스페이스 설계",
+      "subtitle": "하네스 두 층 모델 + 내 워크스페이스 설계도 한 장",
+      "duration_min": 26,
+      "icon": "layers",
+      "badge": "이론",
+      "file": "parts/part-7-01-workspace-design.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-02-workspace-build",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 2,
+      "order": 38,
+      "slug": "workspace-build",
+      "title": "워크스페이스 만들기",
+      "subtitle": "빌더로 짓고 점검까지",
+      "duration_min": 25,
+      "icon": "settings",
+      "badge": null,
+      "file": "parts/part-7-02-workspace-build.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-03-wiki-design",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 3,
+      "order": 39,
+      "slug": "wiki-design",
+      "title": "LLM Wiki 설계",
+      "subtitle": "대화로 자라는 지식베이스",
+      "duration_min": 20,
+      "icon": "book-open",
+      "badge": "이론",
+      "file": "parts/part-7-03-wiki-design.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-04-wiki-build",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 4,
+      "order": 40,
+      "slug": "wiki-build",
+      "title": "위키 짓기",
+      "subtitle": "자료 투입부터 질문까지",
+      "duration_min": 25,
+      "icon": "file-text",
+      "badge": null,
+      "file": "parts/part-7-04-wiki-build.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-05-wiki-improve",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 5,
+      "order": 41,
+      "slug": "wiki-improve",
+      "title": "위키 개선 — 하이브리드 RAG",
+      "subtitle": "하위 인덱스에서 하이브리드 RAG로",
+      "duration_min": 25,
+      "icon": "search",
+      "badge": null,
+      "file": "parts/part-7-05-wiki-improve.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-06-youtube-prd",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 6,
+      "order": 42,
+      "slug": "youtube-prd",
+      "title": "유튜브 대시보드 — PRD·데이터 설계",
+      "subtitle": "PRD와 데이터 모델 설계",
+      "duration_min": 25,
+      "icon": "edit",
+      "badge": "설계",
+      "file": "parts/part-7-06-youtube-prd.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-07-youtube-dashboard",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 7,
+      "order": 43,
+      "slug": "youtube-dashboard",
+      "title": "대시보드 만들기",
+      "subtitle": "터진 영상 잡아내는 화면",
+      "duration_min": 25,
+      "icon": "layout-dashboard",
+      "badge": null,
+      "file": "parts/part-7-07-youtube-dashboard.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-7-08-youtube-deploy",
+      "tier": "part-7",
+      "part": 7,
+      "clip": 8,
+      "order": 44,
+      "slug": "youtube-deploy",
+      "title": "배포하기",
+      "subtitle": "매시간 도는 자동 수집 서비스",
+      "duration_min": 22,
+      "icon": "rocket",
+      "badge": null,
+      "file": "parts/part-7-08-youtube-deploy.md",
+      "type": "lecture"
+    },
+    {
+      "id": "part-8-01-growth-report",
+      "tier": "part-8",
+      "part": 8,
+      "clip": 1,
+      "order": 45,
+      "slug": "growth-report",
+      "title": "성장 리포트",
+      "subtitle": "나의 AI Native 여정",
+      "duration_min": 15,
+      "icon": "trending-up",
+      "badge": "Part 8 마무리",
+      "file": "parts/part-8-01-growth-report.md",
+      "type": "lecture"
     }
   ],
   "tiers": {
@@ -651,6 +786,18 @@
       "description": "막혔을 때 펼쳐보는 보조 자료",
       "count": 4,
       "order": 99
+    },
+    "part-7": {
+      "label": "Part 7. 실전",
+      "description": "워크스페이스·지식베이스·서비스 — 큰 프로젝트 3개를 직접 짓습니다",
+      "count": 8,
+      "order": 7
+    },
+    "part-8": {
+      "label": "Part 8. 성장",
+      "description": "성장 리포트로 나의 AI Native 여정을 정리합니다",
+      "count": 1,
+      "order": 8
     }
   }
 }
