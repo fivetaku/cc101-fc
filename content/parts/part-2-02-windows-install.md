@@ -15,7 +15,7 @@ next_clip_id: "part-2-03-first-run"
 
 Windows는 Mac보다 한 겹 더 있습니다. 바로 WSL이에요. 이 클립에서는 Windows 사용자가 Claude Code를 실행할 수 있도록 **안티그래비티 IDE → WSL 설치 → Windows 재시작 → Ubuntu 초기 설정 → agent에게 Claude Code 설치 방법 요청 → 인증 → 첫 실행 확인**까지 가요.
 
-Mac 클립과 똑같이, 핵심은 설치 명령을 외우는 게 아닙니다. Windows에서는 WSL, Ubuntu, PowerShell, 브라우저 인증이 섞여서 “이 명령을 어디에 쳐야 하지?”가 자주 헷갈려요. 그래서 터미널에 `wsl --install`부터 치는 게 아니에요. 안티그래비티 IDE를 먼저 열고, 그 안의 agent한테 “WSL에서 Claude Code 설치하려는데 어떻게 해?”라고 물어보면서 가요.
+Mac 클립과 똑같이, 설치 명령을 외우는 게 목표가 아니에요. Windows에서는 WSL, Ubuntu, PowerShell, 브라우저 인증이 섞여서 “이 명령을 어디에 쳐야 하지?”가 자주 헷갈려요. 그래서 터미널에 `wsl --install`부터 치는 게 아니에요. 안티그래비티 IDE를 먼저 열고, 그 안의 agent한테 “WSL에서 Claude Code 설치하려는데 어떻게 해?”라고 물어보면서 가요.
 
 끝나고 나면 WSL Ubuntu 안에서 `curl`, `git`, `node`, `npm`, `claude`가 동작해야 해요. 제가 계속 강조할 포인트는 하나예요. Claude Code는 Windows 바탕화면이 아니라 **WSL의 Linux 환경 안에서 실행**합니다.
 
@@ -95,7 +95,7 @@ git --version
 
 ### 4. Claude Code와 Node.js 설치
 
-이 단계에서도 핵심은 agent 패턴입니다. 인터넷에서 본 명령을 바로 실행하지 말고, 안티그래비티 agent에게 WSL Ubuntu 기준 설치 절차를 먼저 설명받아요.
+이 단계도 agent 패턴 그대로예요. 인터넷에서 본 명령을 바로 실행하지 말고, 안티그래비티 agent에게 WSL Ubuntu 기준 설치 절차를 먼저 설명받아요.
 
 ```text
 WSL Ubuntu 안에 Claude Code를 설치하려는데, 권장 설치 방식과 PATH 확인, 인증 방법까지 알려줘

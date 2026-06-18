@@ -265,7 +265,7 @@ settings.json 한 파일에 본인 작업 습관이 다 담겼어요. 이 파일
 
 ### 한 걸음 더 — 스크립트 파일로 분리
 
-위 PreToolUse는 inline 명령이라 점점 길어지면 settings.json이 지저분해져요. 강사가 실제 작업할 때는 별도 Python 스크립트로 빼서 관리합니다.
+위 PreToolUse는 inline 명령이라 점점 길어지면 settings.json이 지저분해져요. 실무에서는 별도 Python 스크립트로 빼서 관리합니다.
 
 ```bash
 # ~/.claude/hooks/block_dangerous.py 같은 위치에 만들기
